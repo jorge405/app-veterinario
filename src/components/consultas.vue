@@ -1,6 +1,5 @@
 <script>
-import componenteCar from '@/components/componenCar.vue'
-
+import componenteCar from '@/components/componenCar.vue';
 
 export default{
     data(){
@@ -14,10 +13,10 @@ export default{
 }
 </script>
 <template>
-    <div class=" flex  mx-auto">
+    <div class=" flex mx-auto">
         <componenteCar>
             <div class=" grid grid-rows-2 gap-x-4">
-                <div class=" flex flex-col space-y-4 ">
+                <div class=" flex flex-col space-y-4">
                 <form method="post" > 
                     <div class="block">
                     <label for="" class=" font-Outfit text-sm  block mx-1 my-1 text-slate-700">Nombre completo</label>
@@ -35,8 +34,8 @@ export default{
                         <label for="" class="  text-slate-700 text-sm font-Outfit mx-1 my-1 block">Tipo</label>
                                 <select v-model="tipo_us" class="bg-gray-200 h-11  appearance-none rounded-lg   font-Outfit  px-4 p-1.5 text-xs text-gray-800/90 min-w-lg placeholder:text-gray-600 mx-1  focus:outline-gray-300  ">
                                     <option value="" class=" font-Outfit text-slate-700 font-xs rounded-lg" selected disabled>selecciona tipo</option>
-                                    <option value="ADMINISTRADOR" class=" font-light text-gray-800/90 font-am font-Outfit rounded-lg">ADMINISTRADOR</option>
-                                    <option value="VETERINARIA" class=" font-light font-Outfit rounded-lg">VETERINARIA</option>
+                                    <option value="ADMINISTRADOR" class=" font-light text-gray-800/90 font-sm font-Outfit rounded-lg">ADMINISTRADOR</option>
+                                    <option value="VETERINARIA" class=" font-light font-Outfit text-gray-800/90 font-sm rounded-lg">VETERINARIA</option>
                                 </select>
                     </div>
                 </form>
