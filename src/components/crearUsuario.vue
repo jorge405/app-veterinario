@@ -65,7 +65,7 @@ export default{
 </script>
 
 <template>
-<div class="bg-white/90  flex flex-row space-x-5 items-start justify-center mt-5 mx-auto rounded-lg py-10 h-[500px]  md:min-w-6xl md:ml-70 z-50 shadow-xl/30">
+<div class="bg-white/80  flex flex-row space-x-5 items-start justify-center mt-5 mx-auto rounded-lg py-10 h-[500px]  md:min-w-6xl md:ml-70 z-50 shadow-xl/30">
 <div class=" flex flex-col space-y-4 ">
     <form method="post" >
         <div class="block">
