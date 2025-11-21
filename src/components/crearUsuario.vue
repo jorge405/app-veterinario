@@ -65,7 +65,7 @@ export default{
 </script>
 
 <template>
-<div class="bg-white/90  flex flex-row space-x-5 items-start justify-center mt-5 mx-auto rounded-lg py-10 h-[500px]  md:min-w-6xl md:ml-70 z-50 shadow-xl/30">
+<div class="bg-white/90  flex flex-row space-x-5 items-start justify-center mt-5 mx-auto rounded-lg py-10 h-[500px]  md:min-w-6xl md:ml-70 z-50 ">
 <div class=" flex flex-col space-y-4 ">
     <form method="post" >
         <div class="block">
@@ -94,9 +94,9 @@ export default{
     </div>
 </div>
 <!-- AQUI ESTARA LA TABLA-->
-<div class="overflow-hidden rounded-xl border border-gray-200 bg-white h-[420px] z-50 shadow-xl/30">
-<div class=" flex min-w-lg h-full  bg-gray-200 rounded-lg overflow-y-auto">
-    <table class=" min-w-full h-fit custom-scrollbar mt-3 mx-2">
+<div class="overflow-hidden rounded-xl border border-gray-200 bg-white h-[420px] z-50  ">
+<div class=" flex min-w-lg h-full  bg-gray-200 rounded-lg overflow-y-auto overflow-x-hidden">
+    <table class=" min-w-full h-fit custom-scrollbar mt-3 mx-2 ">
        <thead>
         <tr class="border-b border-gray-300">
             <th  class="px-2 py-3 text-left w-3/11">
